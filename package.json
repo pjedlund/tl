@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "astro": "^5.5.2",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "@astrojs/db": "^0.14.8"
   }
 }

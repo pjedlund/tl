@@ -1,11 +1,16 @@
 ---
+import { Image } from 'astro:assets';
 import tLogo from '../assets/TolstoyT.png';
 ---
 
 <div id="container">
 	<main>
 		<section id="hero">
-			<img src={tLogo.src} width="180" height="180" alt="The letter T as a decoratitive drop cap" />
+			<Image src={tLogo}
+			alt="The letter T as a decoratitive drop cap"
+			loading="eager"
+			format="webp"
+			 />
 			<h1>
 				The life and works of Leo Tolstoy. Coming soon.
 			</h1>
